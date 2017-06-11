@@ -1,0 +1,52 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+body {
+
+
+}
+
+.wrap {
+width: 560px;
+height: 447px;
+background-color: #80cdc6;
+position: absolute;
+}
+
+.clouds {
+/*background-size: 20%; почему у меня эта функция не работает???*/
+
+/*width: 200px;
+height: 200px;  выставление размеров тоже не работает ((*/
+
+position: relative;
+bottom: 480px;
+z-index: 5;
+}
+
+
+.water {
+position: relative;
+top: 100px;
+z-index: 2;
+}
+
+
+.wooden-ship {
+background-size: 40% auto;
+width: 100px;
+position: relative;
+bottom: 42px;
+left: 15px;
+z-index: 1;
+}
+
+.world {
+background-size: 100% auto;
+width: 500px;
+position: relative;
+top: 150px;
+}
